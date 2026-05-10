@@ -272,7 +272,7 @@ classDiagram
 [![hadesllm](https://img.shields.io/badge/Org-hadesllm-0a0a23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hadesllm)
 [![PyPI](https://img.shields.io/badge/PyPI-moirais-3776AB?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/moirais/)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--1750--3592-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-1750-3592)
-[![Email](https://img.shields.io/badge/Email-UofT_Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vansh.ruhela@mail.utoronto.ca)
+[![Email](https://img.shields.io/badge/Email-hadesllm%40proton.me-8B5CF6?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:hadesllm@proton.me)
 
 </div>
 

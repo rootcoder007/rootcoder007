@@ -10,11 +10,9 @@
 
 ### 🚀 Building tools that make science reproducible and accessible.
 
-- 🎓 **University of Toronto** — CoPAS (Addiction Studies) between DLSPH and Criminology & Sociolegal Studies (CrimSL)
-- 🔬 MRP on **environmental health determinants of MH & substance use** (PHO data)
-- 💻 Lead author of [**MOIRAIS**](https://github.com/hadesllm/moirais) — dual-language (Python + R) scientific computing toolkit
+- 🎓 **University of Toronto**
+- 💻 Contributor to [**MOIRAIS**](https://github.com/hadesllm/moirais) — dual-language (Python + R) scientific computing toolkit
 - 🧠 **Causal inference, DML, IPW/AIPW, spatial analysis, IRT, post-quantum crypto**
-- 🌎 Based in **Toronto, Canada**
 - ⚡ ML on **Raspberry Pi 5** with TurboQuant (ICLR 2026)
 
 ---
@@ -232,10 +230,9 @@ classDiagram
 My research sits at the intersection of public-health epidemiology and
 modern causal-inference methodology. On the substantive side I work on
 environmental-health determinants of mental health and substance use,
-correctional and police-oversight data (Ontario OTIS, federal SIU,
-Toronto Police Service), and substance epidemiology — drawing on
-Canadian PUMFs (CPADS, CCS, CSADS, CSUS, CADS) and CIHI / PHAC
-aggregates. On the methodological side I focus on semiparametric
+and correctional and police-oversight data (Ontario OTIS, federal
+SIU, Toronto Police Service) — drawing on Canadian PUMFs (CPADS,
+CCS, CSADS, CSUS, CADS) and CIHI / PHAC aggregates. On the methodological side I focus on semiparametric
 causal inference (double machine learning, AIPW, G-computation,
 TMLE), Hawkes self-exciting point processes for spatiotemporal
 crime data, spatial statistics (Moran's I, kriging, GWR), and

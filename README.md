@@ -4,12 +4,9 @@
 
 ## 👋 Hi, I'm Vee
 
-<table border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td width="380" valign="middle">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDk0OGdvZnF5ZjJhOGI5a2k3ZXZidHJqYWZ0dG14OGNlMDVjcHFpdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="360" alt="Coding animation"/>
-</td>
-<td valign="top">
+<p align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDk0OGdvZnF5ZjJhOGI5a2k3ZXZidHJqYWZ0dG14OGNlMDVjcHFpdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="90%" style="max-width:360px" alt="Coding animation"/>
+</p>
 
 ### 🚀 Building tools that make science reproducible and accessible.
 
@@ -19,10 +16,6 @@
 - 🧠 **Causal inference, DML, IPW/AIPW, spatial analysis, IRT, post-quantum crypto**
 - 🌎 Based in **Toronto, Canada**
 - ⚡ ML on **Raspberry Pi 5** with TurboQuant (ICLR 2026)
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -150,21 +143,12 @@ ate   <- estimate_ate(cpads, "outcome", "treatment", c("age", "sex"))
 
 ## 📜 Research Interests
 
-<div align="center">
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### 🏥 Epidemiology & Public Health
 
 - Environmental health determinants of MH/SU
 - Canadian public health datasets (CPADS, CIHI)
 - Correctional health (OTIS)
 - Substance epidemiology (eBAC, cannabis policy)
-<br/>
-
-</td>
-<td width="50%" valign="top">
 
 ### 📐 Methods & Theory
 
@@ -172,12 +156,6 @@ ate   <- estimate_ate(cpads, "outcome", "treatment", c("age", "sex"))
 - Doubly robust estimation (AIPW, G-computation)
 - Hawkes self-exciting point processes
 - Post-quantum cryptography (lattice-based)
-<br/>
-
-</td>
-</tr>
-</table>
-</div>
 
 ---
 

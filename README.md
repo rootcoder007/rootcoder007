@@ -2,12 +2,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a23,50:1a1a4e,100:0f3460&height=220&section=header&text=Vansh%20Singh%20Ruhela&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Researcher%20%C2%B7%20Data%20Scientist%20%C2%B7%20Open-Source%20Developer&descSize=16&descAlignY=55&descColor=88ccff" width="100%" alt="Header Banner"/>
 </div>
 
-## 👋 Hi, I'm Vee
-
-<p align="center">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDk0OGdvZnF5ZjJhOGI5a2k3ZXZidHJqYWZ0dG14OGNlMDVjcHFpdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="90%" style="max-width:360px" alt="Coding animation"/>
-</p>
-
 ### 🚀 Building tools that make science reproducible and accessible.
 
 - 🎓 **University of Toronto**

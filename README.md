@@ -72,7 +72,7 @@ ate   <- estimate_ate(cpads, "outcome", "treatment", c("age", "sex"))
 
 </div>
 
-> Methodology partners: **Glenn McNamara** (35-year career with the Ontario Government) — catalyst; **Prof. Angela Zorro Medina** (Centre for Criminology & Sociolegal Studies, UofT) — reviewer. AI assistance via Anthropic Claude + Google Gemini / Vertex AI research-credit programs.
+> Methodology partners: **Glenn McNamara** (35-year career with the Ontario Government) — catalyst; **Prof. Angela Zorro Medina** (Centre for Criminology & Sociolegal Studies, UofT) — supervisor, methodological instructor, domain-expert reviewer, and knowledge user. AI assistance via Anthropic Claude + Google Gemini / Vertex AI research-credit programs.
 
 ### 🧩 Architecture (estimator spine)
 

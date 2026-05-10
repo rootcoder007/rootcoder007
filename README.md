@@ -177,8 +177,6 @@ classDiagram
 
 <div align="center">
 
-**Languages**
-
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
@@ -190,9 +188,6 @@ classDiagram
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat&logo=latex&logoColor=white)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)
-
-**Scientific Computing & ML**
-
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat&logo=scipy&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
@@ -204,9 +199,6 @@ classDiagram
 ![Sphinx](https://img.shields.io/badge/Sphinx-000000?style=flat&logo=sphinx&logoColor=white)
 ![Quarto](https://img.shields.io/badge/Quarto-75AADB?style=flat&logo=quarto&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
-
-**Infrastructure**
-
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
@@ -220,9 +212,6 @@ classDiagram
 ![Tailscale](https://img.shields.io/badge/Tailscale-000000?style=flat&logo=tailscale&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?style=flat&logo=neovim&logoColor=white)
-
-**Statistics & Methods**
-
 ![Causal Inference](https://img.shields.io/badge/Causal_Inference-DML%2FIPW%2FAIPW-0a0a23?style=flat)
 ![Spatial Stats](https://img.shields.io/badge/Spatial-Moran%2FKriging%2FGWR-1a1a4e?style=flat)
 ![Psychometrics](https://img.shields.io/badge/Psychometrics-IRT%2FCTT%2FDIF-2a2a5e?style=flat)
@@ -240,19 +229,19 @@ classDiagram
 
 ## 📜 Research Interests
 
-### 🏥 Epidemiology & Public Health
-
-- Environmental health determinants of MH/SU
-- Canadian public health datasets (CPADS, CIHI)
-- Correctional health (OTIS)
-- Substance epidemiology (eBAC, cannabis policy)
-
-### 📐 Methods & Theory
-
-- Semiparametric causal inference (DML, TMLE)
-- Doubly robust estimation (AIPW, G-computation)
-- Hawkes self-exciting point processes
-- Post-quantum cryptography (lattice-based)
+My research sits at the intersection of public-health epidemiology and
+modern causal-inference methodology. On the substantive side I work on
+environmental-health determinants of mental health and substance use,
+correctional and police-oversight data (Ontario OTIS, federal SIU,
+Toronto Police Service), and substance epidemiology — drawing on
+Canadian PUMFs (CPADS, CCS, CSADS, CSUS, CADS) and CIHI / PHAC
+aggregates. On the methodological side I focus on semiparametric
+causal inference (double machine learning, AIPW, G-computation,
+TMLE), Hawkes self-exciting point processes for spatiotemporal
+crime data, spatial statistics (Moran's I, kriging, GWR), and
+post-quantum cryptography for privacy-preserving analytics. Most of
+this lives in MOIRAIS as composable estimators sharing a single
+`RichResult` contract.
 
 ---
 

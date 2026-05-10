@@ -74,6 +74,103 @@ ate   <- estimate_ate(cpads, "outcome", "treatment", c("age", "sex"))
 
 > Methodology partners: **Glenn McNamara** (~30 yrs OPP HQ statistician, Stats Canada) — catalyst; **Prof. Angela Zorro Medina** (Centre for Criminology & Sociolegal Studies, UofT) — reviewer. AI assistance via Anthropic Claude + Google Gemini / Vertex AI research-credit programs.
 
+### 🧩 Architecture (estimator spine)
+
+Every analysis function in MOIRAIS returns a `RichResult`. Estimator
+hierarchies share a common `BaseEstimator` contract; concrete classes
+specialise it for a particular causal / spectral / sampling method.
+
+```mermaid
+classDiagram
+  class RichResult {
+    +str title
+    +list summary_lines
+    +list tables
+    +list warnings
+    +str interpretation
+    +Any payload
+    +__str__()
+    +to_json()
+  }
+
+  class BaseEstimator {
+    <<abstract>>
+    +DataFrame data
+    +str treatment
+    +str outcome
+    +list covariates
+    +fit() RichResult
+    +describe()
+    +_check_inputs()*
+    +_estimate()*
+  }
+
+  class IPWEstimator {
+    +bool stabilised
+  }
+  class AIPWEstimator {
+    +SuperLearner outcome_model
+    +SuperLearner propensity_model
+  }
+  class DMLEstimator {
+    +int n_folds
+    +str score
+  }
+  class MatchingEstimator {
+    +str method
+    +int caliper
+  }
+  class HawkesEstimator {
+    +str kernel
+    +str baseline
+  }
+
+  BaseEstimator <|-- IPWEstimator
+  BaseEstimator <|-- AIPWEstimator
+  BaseEstimator <|-- DMLEstimator
+  BaseEstimator <|-- MatchingEstimator
+  BaseEstimator <|-- HawkesEstimator
+
+  BaseEstimator ..> RichResult : returns
+```
+
+The MRM framework composes ten of these `BaseEstimator` subclasses on
+a single (treatment, outcome, covariates) design and reports them in
+one aggregate `RichResult`.
+
+```mermaid
+classDiagram
+  class MRMModule {
+    <<abstract>>
+    +DataFrame data
+    +str treatment
+    +str outcome
+    +list covariates
+    +run() RichResult
+  }
+
+  class PerRowMRM
+  class AggregateMRM {
+    +str family
+  }
+  class DoobChiSquare {
+    +ndarray table
+  }
+  class MandelaClassifier {
+    +str jurisdiction
+  }
+
+  MRMModule <|-- PerRowMRM
+  MRMModule <|-- AggregateMRM
+  MRMModule <|-- DoobChiSquare
+  MRMModule <|-- MandelaClassifier
+
+  PerRowMRM o-- IPWEstimator
+  PerRowMRM o-- AIPWEstimator
+  PerRowMRM o-- DMLEstimator
+  PerRowMRM o-- MatchingEstimator
+```
+
 ---
 
 ## 🛠️ Technical Skills

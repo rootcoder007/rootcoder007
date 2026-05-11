@@ -266,3 +266,18 @@ this lives in MORIE as composable estimators sharing a single
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a23,50:1a1a4e,100:0f3460&height=120&section=footer" width="100%" alt="Footer"/>
 </div>
+
+---
+
+## 📜 License
+
+The content of this profile repository (README + assets) is
+dual-licensed under either of
+
+* [MIT License](LICENSE-MIT)
+* [Apache License 2.0](LICENSE-APACHE)
+
+at your option (`SPDX-License-Identifier: MIT OR Apache-2.0`).
+This is independent of the licensing on the projects this README
+links out to (MORIE is GPL-2.0-only matching the Linux kernel
+convention; others vary per their own LICENSE files).

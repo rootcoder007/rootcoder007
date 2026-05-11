@@ -15,7 +15,7 @@
 
 <div align="center">
 
-[![MORIE](https://img.shields.io/badge/MORIE-0.1.3-0a0a23?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/morie/)
+[![MORIE](https://img.shields.io/badge/MORIE-0.1.15-0a0a23?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/morie/)
 [![PyPI](https://img.shields.io/pypi/v/morie?style=for-the-badge&color=blue)](https://pypi.org/project/morie/)
 [![r-universe](https://img.shields.io/badge/r--universe-hadesllm-276DC3?style=for-the-badge&logo=r&logoColor=white)](https://hadesllm.r-universe.dev/morie)
 [![License: GPL v2](https://img.shields.io/badge/License-GPLv2-purple?style=for-the-badge)](https://www.gnu.org/licenses/old-licenses/gpl-2.0)

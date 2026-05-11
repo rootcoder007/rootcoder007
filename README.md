@@ -5,26 +5,25 @@
 ### 🚀 Building tools that make science reproducible and accessible.
 
 - 🎓 **University of Toronto**
-- 💻 Contributor to [**MOIRAIS**](https://github.com/hadesllm/moirais) — dual-language (Python + R) scientific computing toolkit
+- 💻 Contributor to [**MORIE**](https://github.com/hadesllm/morie) — dual-language (Python + R) scientific computing toolkit
 - 🧠 **Causal inference, DML, IPW/AIPW, spatial analysis, IRT, post-quantum crypto**
 - ⚡ ML on **Raspberry Pi 5** with TurboQuant (ICLR 2026)
 
 ---
 
-## ⭐ Flagship: MOIRAIS
+## ⭐ Flagship: MORIE
 
 <div align="center">
 
-[![MOIRAIS](https://img.shields.io/badge/MOIRAIS-0.1.0.post3-0a0a23?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/moirais/)
-[![PyPI](https://img.shields.io/pypi/v/moirais?style=for-the-badge&color=blue)](https://pypi.org/project/moirais/)
-[![r-universe](https://img.shields.io/badge/r--universe-hadesllm-276DC3?style=for-the-badge&logo=r&logoColor=white)](https://hadesllm.r-universe.dev/moirais)
+[![MORIE](https://img.shields.io/badge/MORIE-0.1.3-0a0a23?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/morie/)
+[![PyPI](https://img.shields.io/pypi/v/morie?style=for-the-badge&color=blue)](https://pypi.org/project/morie/)
+[![r-universe](https://img.shields.io/badge/r--universe-hadesllm-276DC3?style=for-the-badge&logo=r&logoColor=white)](https://hadesllm.r-universe.dev/morie)
 [![License: GPL v2](https://img.shields.io/badge/License-GPLv2-purple?style=for-the-badge)](https://www.gnu.org/licenses/old-licenses/gpl-2.0)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20096350-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20096350)
 
 </div>
 
-**[MOIRAIS](https://github.com/hadesllm/moirais)** — *Methods for Observational
-Inference and Robust Analysis of Interventions in Scientific Experimentation* —
+**[MORIE](https://github.com/hadesllm/morie)** — *Multi-domain Open Research and Inferential Estimation* —
 is a multi-domain scientific computing toolkit hosting the **MRM
 (McNamara-Ruhela-Medina) framework** as its primary application for Canadian
 carceral, police, and oversight data. Python + R parity across the same
@@ -42,25 +41,25 @@ estimators; 60+ built-in datasets shipped in a portable SQLite layer.
 | **Carbon-aware computing** | Pure-Python emissions tracker with 213-country IEA carbon-intensity data |
 
 ```python
-import moirais
-df = moirais.load_dataset("otis-2025")
+import morie
+df = morie.load_dataset("otis-2025")
 
 # MRM module on OTIS data
-from moirais.otis_all_analyze import analyze_a01_mrm
+from morie.otis_all_analyze import analyze_a01_mrm
 result = analyze_a01_mrm(df)
 print(result)
 ```
 
 ```r
-library(moirais)
-cpads <- moirais_load_dataset("cpads_2021")
+library(morie)
+cpads <- morie_load_dataset("cpads_2021")
 ate   <- estimate_ate(cpads, "outcome", "treatment", c("age", "sex"))
 ```
 
 <div align="center">
 
-[![Explore MOIRAIS](https://img.shields.io/badge/Explore_MOIRAIS-0a0a23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hadesllm/moirais)
-[![Documentation](https://img.shields.io/badge/Documentation-hadesllm.github.io-1a1a4e?style=for-the-badge&logo=readthedocs&logoColor=white)](https://hadesllm.github.io/moirais/)
+[![Explore MORIE](https://img.shields.io/badge/Explore_MORIE-0a0a23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hadesllm/morie)
+[![Documentation](https://img.shields.io/badge/Documentation-hadesllm.github.io-1a1a4e?style=for-the-badge&logo=readthedocs&logoColor=white)](https://hadesllm.github.io/morie/)
 
 </div>
 
@@ -68,7 +67,7 @@ ate   <- estimate_ate(cpads, "outcome", "treatment", c("age", "sex"))
 
 ### 🧩 Architecture (estimator spine)
 
-Every analysis function in MOIRAIS returns a `RichResult`. Estimator
+Every analysis function in MORIE returns a `RichResult`. Estimator
 hierarchies share a common `BaseEstimator` contract; concrete classes
 specialise it for a particular causal / spectral / sampling method.
 
@@ -231,16 +230,16 @@ causal inference (double machine learning, AIPW, G-computation,
 TMLE), Hawkes self-exciting point processes for spatiotemporal
 crime data, spatial statistics (Moran's I, kriging, GWR), and
 post-quantum cryptography for privacy-preserving analytics. Most of
-this lives in MOIRAIS as composable estimators sharing a single
+this lives in MORIE as composable estimators sharing a single
 `RichResult` contract.
 
 ---
 
 ## 📦 Selected Publications
 
-- Ruhela, V. S. (2026). **MOIRAIS: A Multi-Domain Scientific Computing Toolkit for Observational Inference, with Sociolegal, Signal-Processing, Cryptographic, and Spatial-Statistics Modules.** Zenodo. https://doi.org/10.5281/zenodo.20096350
-- Ruhela, V. S. (2026). **The MRM Framework: A Multi-Source Statistical Foundation for Canadian Carceral, Police, and Oversight Data, Implemented as MRM Modules in MOIRAIS.** Zenodo. https://doi.org/10.5281/zenodo.20096075
-- Ruhela, V. S. (2026). **Criminological Hawkes Process via MOIRAIS: Markovian and Non-Markovian Self-Exciting Point Processes for Toronto Crime.** Zenodo. https://doi.org/10.5281/zenodo.20102198
+- Ruhela, V. S. (2026). **MORIE: A Multi-Domain Scientific Computing Toolkit for Observational Inference, with Sociolegal, Signal-Processing, Cryptographic, and Spatial-Statistics Modules.** Zenodo. https://doi.org/10.5281/zenodo.20096350
+- Ruhela, V. S. (2026). **The MRM Framework: A Multi-Source Statistical Foundation for Canadian Carceral, Police, and Oversight Data, Implemented as MRM Modules in MORIE.** Zenodo. https://doi.org/10.5281/zenodo.20096075
+- Ruhela, V. S. (2026). **Criminological Hawkes Process via MORIE: Markovian and Non-Markovian Self-Exciting Point Processes for Toronto Crime.** Zenodo. https://doi.org/10.5281/zenodo.20102198
 
 ---
 
@@ -250,7 +249,7 @@ this lives in MOIRAIS as composable estimators sharing a single
 
 [![GitHub](https://img.shields.io/badge/GitHub-rootcoder007-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rootcoder007)
 [![hadesllm](https://img.shields.io/badge/Org-hadesllm-0a0a23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hadesllm)
-[![PyPI](https://img.shields.io/badge/PyPI-moirais-3776AB?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/moirais/)
+[![PyPI](https://img.shields.io/badge/PyPI-morie-3776AB?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/morie/)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--1750--3592-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-1750-3592)
 [![Email](https://img.shields.io/badge/Email-hadesllm%40proton.me-8B5CF6?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:hadesllm@proton.me)
 

@@ -1,3 +1,7 @@
+<div align="center">
+<img src="./coding-setup.gif" width="100%" alt="Coding setup animation"/>
+</div>
+
 ### 🚀 Building tools that make science reproducible and accessible.
 
 - 🎓 **University of Toronto**
@@ -254,9 +258,7 @@ this lives in MORIE as composable estimators sharing a single
 
 ---
 
-<div align="center">
-<img src="./coding-setup.gif" width="100%" alt="Coding setup animation"/>
-</div>
+
 
 <br/>
 

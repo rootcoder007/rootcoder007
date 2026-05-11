@@ -15,14 +15,14 @@
 
 <div align="center">
 
-[![MORIE](https://img.shields.io/badge/MORIE-0.1.15-0a0a23?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/morie/)
+[![MORIE](https://img.shields.io/badge/MORIE-0.2.0-0a0a23?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/morie/)
 [![PyPI](https://img.shields.io/pypi/v/morie?style=for-the-badge&color=blue)](https://pypi.org/project/morie/)
 [![r-universe](https://img.shields.io/badge/r--universe-hadesllm-276DC3?style=for-the-badge&logo=r&logoColor=white)](https://hadesllm.r-universe.dev/morie)
-[![License: GPL v2](https://img.shields.io/badge/License-GPLv2-purple?style=for-the-badge)](https://www.gnu.org/licenses/old-licenses/gpl-2.0)
-[![DOI · morie R](https://img.shields.io/badge/DOI_morie_R-10.5281%2Fzenodo.20111233-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.20111233)
-[![DOI · morie Python](https://img.shields.io/badge/DOI_morie_Python-10.5281%2Fzenodo.20096350-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.20096350)
-[![MRM paper](https://img.shields.io/badge/MRM_paper-10.5281%2Fzenodo.20096075-2ea44f?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.20096075)
-[![Hawkes paper](https://img.shields.io/badge/Hawkes_paper-10.5281%2Fzenodo.20102198-2ea44f?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.20102198)
+[![License: GPL v2](https://img.shields.io/badge/License-GPLv2-d97706?style=for-the-badge)](https://www.gnu.org/licenses/old-licenses/gpl-2.0)
+[![DOI · morie R](https://img.shields.io/badge/DOI_morie_R-10.5281%2Fzenodo.20111233-0d9488?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.20111233)
+[![DOI · morie Python](https://img.shields.io/badge/DOI_morie_Python-10.5281%2Fzenodo.20096350-7c3aed?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.20096350)
+[![MRM paper](https://img.shields.io/badge/MRM_paper-10.5281%2Fzenodo.20096075-15803d?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.20096075)
+[![Hawkes paper](https://img.shields.io/badge/Hawkes_paper-10.5281%2Fzenodo.20102198-be123c?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.20102198)
 
 </div>
 

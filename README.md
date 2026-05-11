@@ -11,8 +11,6 @@
 
 ---
 
-## ⭐ Flagship: MORIE
-
 <div align="center">
 
 [![MORIE](https://img.shields.io/badge/MORIE-0.2.0-0a0a23?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/morie/)

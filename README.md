@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a23,50:1a1a4e,100:0f3460&height=220&section=header&animation=fadeIn&fontAlignY=35&desc=Researcher%20%C2%B7%20Data%20Scientist%20%C2%B7%20Open-Source%20Developer&descSize=16&descAlignY=55&descColor=88ccff" width="100%" alt="Header Banner"/>
-</div>
-
 ### 🚀 Building tools that make science reproducible and accessible.
 
 - 🎓 **University of Toronto**

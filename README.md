@@ -33,7 +33,7 @@ estimators; 60+ built-in datasets shipped in a portable SQLite layer.
 | Surface | What |
 |---|---|
 | **Causal estimators** | ATE / ATT / ATC / GATE / CATE / LATE, AIPW, G-computation, DML (PLR / IRM / PLIV), PSM, Rosenbaum bounds, E-value |
-| **MRM framework** | 10-estimator ensemble + Mandela classifier (UN Rules 43/44) + Doob χ² + provincial-vs-federal cross-comparison |
+| **MRM framework** | 10-estimator ensemble + Mandela classifier (UN Rules 43/44) + χ² + provincial-vs-federal cross-comparison |
 | **Spatial statistics** | Moran's I, LISA, Getis-Ord G\*, kriging, GWR, Ripley's K/L, Kulldorff space-time scan |
 | **Hawkes processes** | Markovian Mohler-Bertozzi-Brantingham + non-Markovian Kwan-Chen-Dunsmuir kernels (Gamma / Weibull / Lomax) |
 | **Statistical physics of crime** | Short-Brantingham reaction-diffusion, Bettencourt urban scaling, Lévy-flight tail, Lotka-Volterra |
@@ -244,15 +244,9 @@ this lives in MORIE as composable estimators sharing a single
 
 ---
 
-## 🌐 Let's Stay Connected
-
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-rootcoder007-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rootcoder007)
-[![hadesllm](https://img.shields.io/badge/Org-hadesllm-0a0a23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hadesllm)
-[![PyPI](https://img.shields.io/badge/PyPI-morie-3776AB?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/morie/)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0004--1750--3592-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-1750-3592)
-[![Email](https://img.shields.io/badge/Email-hadesllm%40proton.me-8B5CF6?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:hadesllm@proton.me)
+[![GitHub](https://img.shields.io/badge/GitHub-rootcoder007-181717?style=flat&logo=github&logoColor=white)](https://github.com/rootcoder007) [![hadesllm](https://img.shields.io/badge/Org-hadesllm-0a0a23?style=flat&logo=github&logoColor=white)](https://github.com/hadesllm) [![PyPI](https://img.shields.io/badge/PyPI-morie-3776AB?style=flat&logo=pypi&logoColor=white)](https://pypi.org/project/morie/) [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--1750--3592-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-1750-3592) [![Email](https://img.shields.io/badge/Email-hadesllm%40proton.me-8B5CF6?style=flat&logo=protonmail&logoColor=white)](mailto:hadesllm@proton.me)
 
 </div>
 

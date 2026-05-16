@@ -238,9 +238,11 @@ this lives in MORIE as composable estimators sharing a single
 
 ## 📦 Selected Publications
 
-- Ruhela, V. S. (2026). **MORIE: A Multi-Domain Scientific Computing Toolkit for Observational Inference, with Sociolegal, Signal-Processing, Cryptographic, and Spatial-Statistics Modules.** Zenodo. https://doi.org/10.5281/zenodo.20096350
-- Ruhela, V. S. (2026). **The MRM Framework: A Multi-Source Statistical Foundation for Canadian Carceral, Police, and Oversight Data, Implemented as MRM Modules in MORIE.** Zenodo. https://doi.org/10.5281/zenodo.20096075
+- Ruhela, V. S. (2026). **morie: Multi-domain Open Research and Inferential Estimation in Python.** Zenodo. https://doi.org/10.5281/zenodo.20096350
+- Ruhela, V. S. (2026). **morie: Multi-domain Open Research and Inferential Estimation in R.** Zenodo. https://doi.org/10.5281/zenodo.20111233
+- Ruhela, V. S. (2026). **MRM: Multilevel Reconciliation Methodology — A Multi-Source Statistical Foundation for Canadian Carceral, Police, and Oversight Data.** Zenodo. https://doi.org/10.5281/zenodo.20096075
 - Ruhela, V. S. (2026). **Criminological Hawkes Process via MORIE: Markovian and Non-Markovian Self-Exciting Point Processes for Toronto Crime.** Zenodo. https://doi.org/10.5281/zenodo.20102198
+- Ruhela, V. S. (2026). **Solitary Confinement, Self-Excitation, and Institutional Churn: Empirical Applications of MRM to Canadian Carceral and Police Data.** Zenodo. https://doi.org/10.5281/zenodo.20175689
 
 ---
 

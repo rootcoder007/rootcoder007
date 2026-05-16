@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./coding-setup.gif" width="100%" alt="Coding setup animation"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a23,50:1a1a4e,100:0f3460&height=120&section=header" width="100%" alt="Header"/>
 </div>
 
 ### 🚀 Building tools that make science reproducible and accessible.
@@ -13,10 +13,10 @@
 
 <div align="center">
 
-[![MORIE](https://img.shields.io/badge/MORIE-0.2.0-0a0a23?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/morie/)
+[![MORIE](https://img.shields.io/badge/MORIE-0.8.0-0a0a23?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/morie/)
 [![PyPI](https://img.shields.io/pypi/v/morie?style=for-the-badge&color=blue)](https://pypi.org/project/morie/)
 [![r-universe](https://img.shields.io/badge/r--universe-hadesllm-276DC3?style=for-the-badge&logo=r&logoColor=white)](https://hadesllm.r-universe.dev/morie)
-[![License: GPL v2](https://img.shields.io/badge/License-GPLv2-d97706?style=for-the-badge)](https://www.gnu.org/licenses/old-licenses/gpl-2.0)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-d97706?style=for-the-badge)](https://www.gnu.org/licenses/agpl-3.0)
 [![DOI · morie R](https://img.shields.io/badge/DOI_morie_R-10.5281%2Fzenodo.20111233-0d9488?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.20111233)
 [![DOI · morie Python](https://img.shields.io/badge/DOI_morie_Python-10.5281%2Fzenodo.20096350-7c3aed?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.20096350)
 [![MRM paper](https://img.shields.io/badge/MRM_paper-10.5281%2Fzenodo.20096075-15803d?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.20096075)
@@ -263,20 +263,5 @@ this lives in MORIE as composable estimators sharing a single
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a23,50:1a1a4e,100:0f3460&height=120&section=footer" width="100%" alt="Footer"/>
+<img src="./coding-setup.gif" width="100%" alt="Coding setup animation"/>
 </div>
-
----
-
-## 📜 License
-
-The content of this profile repository (README + assets) is
-dual-licensed under either of
-
-* [MIT License](LICENSE-MIT)
-* [Apache License 2.0](LICENSE-APACHE)
-
-at your option (`SPDX-License-Identifier: MIT OR Apache-2.0`).
-This is independent of the licensing on the projects this README
-links out to (MORIE is GPL-2.0-only matching the Linux kernel
-convention; others vary per their own LICENSE files).

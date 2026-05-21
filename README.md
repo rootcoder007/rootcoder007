@@ -13,7 +13,7 @@
 
 <div align="center">
 
-[![MORIE](https://img.shields.io/badge/MORIE-0.8.0-0a0a23?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/morie/)
+[![MORIE](https://img.shields.io/badge/MORIE-0.9.5.3-blue?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/morie/)
 [![PyPI](https://img.shields.io/pypi/v/morie?style=for-the-badge&color=blue)](https://pypi.org/project/morie/)
 [![r-universe](https://img.shields.io/badge/r--universe-hadesllm-276DC3?style=for-the-badge&logo=r&logoColor=white)](https://hadesllm.r-universe.dev/morie)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-d97706?style=for-the-badge)](https://www.gnu.org/licenses/agpl-3.0)
@@ -145,7 +145,7 @@ classDiagram
   class AggregateMRM {
     +str family
   }
-  class DoobChiSquare {
+  class MRMChiSquare {
     +ndarray table
   }
   class MandelaClassifier {
@@ -154,7 +154,7 @@ classDiagram
 
   MRMModule <|-- PerRowMRM
   MRMModule <|-- AggregateMRM
-  MRMModule <|-- DoobChiSquare
+  MRMModule <|-- MRMChiSquare
   MRMModule <|-- MandelaClassifier
 
   PerRowMRM o-- IPWEstimator

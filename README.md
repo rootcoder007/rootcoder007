@@ -26,7 +26,7 @@
 
 **[MORIE](https://github.com/hadesllm/morie)** — *Multi-domain Open Research and Inferential Estimation* —
 is a multi-domain scientific computing toolkit hosting the **MRM
-(McNamara-Ruhela-Medina) framework** as its primary application for Canadian
+(Multilevel Reconciliation Methodology) framework** as its primary application for Canadian
 carceral, police, and oversight data. Python + R parity across the same
 estimators; 60+ built-in datasets shipped in a portable SQLite layer.
 

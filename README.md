@@ -5,26 +5,20 @@
 ### 🚀 Building tools that make science reproducible and accessible.
 
 - 🎓 **University of Toronto**
-- 💻 Contributor to [**MORIE**](https://github.com/hadesllm/morie) — dual-language (Python + R) scientific computing toolkit
+- 💻 Author of [**MORIE**](https://github.com/rootcoder007/morie) — dual-language (Python + R) scientific computing toolkit
 - 🧠 **Causal inference, DML, IPW/AIPW, spatial analysis, IRT, post-quantum crypto**
-- ⚡ ML on **Raspberry Pi 5** with TurboQuant (ICLR 2026)
+- ⚡ ML on **Raspberry Pi 5** using TurboQuant quantization
 
 ---
 
 <div align="center">
 
-[![MORIE](https://img.shields.io/badge/MORIE-0.9.5.3-blue?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/morie/)
 [![PyPI](https://img.shields.io/pypi/v/morie?style=for-the-badge&color=blue)](https://pypi.org/project/morie/)
-[![r-universe](https://img.shields.io/badge/r--universe-hadesllm-276DC3?style=for-the-badge&logo=r&logoColor=white)](https://hadesllm.r-universe.dev/morie)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-d97706?style=for-the-badge)](https://www.gnu.org/licenses/agpl-3.0)
-[![DOI · morie R](https://img.shields.io/badge/DOI_morie_R-10.5281%2Fzenodo.20111233-0d9488?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.20111233)
-[![DOI · morie Python](https://img.shields.io/badge/DOI_morie_Python-10.5281%2Fzenodo.20096350-7c3aed?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.20096350)
-[![MRM paper](https://img.shields.io/badge/MRM_paper-10.5281%2Fzenodo.20096075-15803d?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.20096075)
-[![Hawkes paper](https://img.shields.io/badge/Hawkes_paper-10.5281%2Fzenodo.20102198-be123c?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.20102198)
 
 </div>
 
-**[MORIE](https://github.com/hadesllm/morie)** — *Multi-domain Open Research and Inferential Estimation* —
+**[MORIE](https://github.com/rootcoder007/morie)** — *Multi-domain Open Research and Inferential Estimation* —
 is a multi-domain scientific computing toolkit hosting the **MRM
 (Multilevel Reconciliation Methodology) framework** as its primary application for Canadian
 carceral, police, and oversight data. Python + R parity across the same
@@ -59,12 +53,12 @@ ate   <- estimate_ate(cpads, "outcome", "treatment", c("age", "sex"))
 
 <div align="center">
 
-[![Explore MORIE](https://img.shields.io/badge/Explore_MORIE-0a0a23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hadesllm/morie)
-[![Documentation](https://img.shields.io/badge/Documentation-hadesllm.github.io-1a1a4e?style=for-the-badge&logo=readthedocs&logoColor=white)](https://hadesllm.github.io/morie/)
+[![Explore MORIE](https://img.shields.io/badge/Explore_MORIE-0a0a23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rootcoder007/morie)
+[![Documentation](https://img.shields.io/badge/Documentation-rootcoder007.github.io-1a1a4e?style=for-the-badge&logo=readthedocs&logoColor=white)](https://rootcoder007.github.io/morie/)
 
 </div>
 
-> Methodology partners: **Glenn McNamara** (35-year career with the Ontario Government) — catalyst; **Prof. Angela Zorro Medina** (Centre for Criminology & Sociolegal Studies, UofT) — supervisor, methodological instructor, domain-expert reviewer, and knowledge user. AI assistance via Anthropic Claude + Google Gemini / Vertex AI research-credit programs.
+> AI assistance via Anthropic Claude and Google Gemini / Vertex AI research-credit programs.
 
 ### 🧩 Architecture (estimator spine)
 
@@ -213,7 +207,7 @@ classDiagram
 ![Epidemiology](https://img.shields.io/badge/Epidemiology-SIR%2FSEIR%2FR0-6a6a9e?style=flat)
 ![Signal Processing](https://img.shields.io/badge/Signal_Processing-FFT%2FHRT%2FEMG-7a7aae?style=flat)
 ![Cryptography](https://img.shields.io/badge/Cryptography-ML--KEM%2FLattice-8a8abe?style=flat)
-![Quantization](https://img.shields.io/badge/TurboQuant-ICLR_2026-ff6600?style=flat)
+![Quantization](https://img.shields.io/badge/Quantization-TurboQuant-ff6600?style=flat)
 
 </div>
 
@@ -236,19 +230,9 @@ this lives in MORIE as composable estimators sharing a single
 
 ---
 
-## 📦 Selected Publications
-
-- Ruhela, V. S. (2026). **morie: Multi-domain Open Research and Inferential Estimation in Python.** Zenodo. https://doi.org/10.5281/zenodo.20096350
-- Ruhela, V. S. (2026). **morie: Multi-domain Open Research and Inferential Estimation in R.** Zenodo. https://doi.org/10.5281/zenodo.20111233
-- Ruhela, V. S. (2026). **MRM: Multilevel Reconciliation Methodology — A Multi-Source Statistical Foundation for Canadian Carceral, Police, and Oversight Data.** Zenodo. https://doi.org/10.5281/zenodo.20096075
-- Ruhela, V. S. (2026). **Criminological Hawkes Process via MORIE: Markovian and Non-Markovian Self-Exciting Point Processes for Toronto Crime.** Zenodo. https://doi.org/10.5281/zenodo.20102198
-- Ruhela, V. S. (2026). **Solitary Confinement, Self-Excitation, and Institutional Churn: Empirical Applications of MRM to Canadian Carceral and Police Data.** Zenodo. https://doi.org/10.5281/zenodo.20175689
-
----
-
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-rootcoder007-181717?style=flat&logo=github&logoColor=white)](https://github.com/rootcoder007) [![hadesllm](https://img.shields.io/badge/Org-hadesllm-0a0a23?style=flat&logo=github&logoColor=white)](https://github.com/hadesllm) [![PyPI](https://img.shields.io/badge/PyPI-morie-3776AB?style=flat&logo=pypi&logoColor=white)](https://pypi.org/project/morie/) [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--1750--3592-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-1750-3592) [![Email](https://img.shields.io/badge/Email-hadesllm%40proton.me-8B5CF6?style=flat&logo=protonmail&logoColor=white)](mailto:hadesllm@proton.me)
+[![GitHub](https://img.shields.io/badge/GitHub-rootcoder007-181717?style=flat&logo=github&logoColor=white)](https://github.com/rootcoder007) [![PyPI](https://img.shields.io/badge/PyPI-morie-3776AB?style=flat&logo=pypi&logoColor=white)](https://pypi.org/project/morie/) [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--1750--3592-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-1750-3592) [![Email](https://img.shields.io/badge/Email-vsruhela%40proton.me-8B5CF6?style=flat&logo=protonmail&logoColor=white)](mailto:vsruhela@proton.me)
 
 </div>
 

@@ -32,7 +32,7 @@ estimators; 60+ built-in datasets shipped in a portable SQLite layer.
 | **Hawkes processes** | Markovian Mohler-Bertozzi-Brantingham + non-Markovian Kwan-Chen-Dunsmuir kernels (Gamma / Weibull / Lomax) |
 | **Statistical physics of crime** | Short-Brantingham reaction-diffusion, Bettencourt urban scaling, Lévy-flight tail, Lotka-Volterra |
 | **Survey-weighted inference** | Horvitz-Thompson, Hájek, raking, complex-survey GLM, bootstrap + jackknife |
-| **Psychometrics** | Cronbach α, McDonald ω, IRT (1PL/2PL/3PL/GRM), DIF, parallel analysis (250+ functions) |
+| **Psychometrics** | Cronbach α, McDonald ω, IRT (1PL/2PL/3PL/GRM), DIF, parallel analysis |
 | **Carbon-aware computing** | Pure-Python emissions tracker with 213-country IEA carbon-intensity data |
 
 ```python
@@ -60,11 +60,13 @@ ate   <- estimate_ate(cpads, "outcome", "treatment", c("age", "sex"))
 
 > AI assistance via Anthropic Claude and Google Gemini / Vertex AI research-credit programs.
 
-### 🧩 Architecture (estimator spine)
+### 🧩 Architecture
 
-Every analysis function in MORIE returns a `RichResult`. Estimator
-hierarchies share a common `BaseEstimator` contract; concrete classes
-specialise it for a particular causal / spectral / sampling method.
+MORIE's public API is **function-based** — ~559 `morie_*` functions with
+Python + R parity. Every result-emitting function returns a `RichResult`:
+a `dict` subclass carrying a title, summary lines, tables, warnings, an
+interpretation, and the raw payload, so any result prints as a readable
+report and round-trips to JSON.
 
 ```mermaid
 classDiagram
@@ -78,83 +80,19 @@ classDiagram
     +__str__()
     +to_json()
   }
-
-  class BaseEstimator {
-    <<abstract>>
-    +DataFrame data
-    +str treatment
-    +str outcome
-    +list covariates
-    +fit() RichResult
-    +describe()
-    +_check_inputs()*
-    +_estimate()*
-  }
-
-  class IPWEstimator {
-    +bool stabilised
-  }
-  class AIPWEstimator {
-    +SuperLearner outcome_model
-    +SuperLearner propensity_model
-  }
-  class DMLEstimator {
-    +int n_folds
-    +str score
-  }
-  class MatchingEstimator {
-    +str method
-    +int caliper
-  }
-  class HawkesEstimator {
-    +str kernel
-    +str baseline
-  }
-
-  BaseEstimator <|-- IPWEstimator
-  BaseEstimator <|-- AIPWEstimator
-  BaseEstimator <|-- DMLEstimator
-  BaseEstimator <|-- MatchingEstimator
-  BaseEstimator <|-- HawkesEstimator
-
-  BaseEstimator ..> RichResult : returns
 ```
 
-The MRM framework composes ten of these `BaseEstimator` subclasses on
-a single (treatment, outcome, covariates) design and reports them in
-one aggregate `RichResult`.
+A single design — `(data, treatment, outcome, covariates)` — flows through
+any estimator function to a `RichResult`. The MRM framework runs ~10 such
+estimator functions on one design and merges them into one aggregate
+`RichResult`.
 
 ```mermaid
-classDiagram
-  class MRMModule {
-    <<abstract>>
-    +DataFrame data
-    +str treatment
-    +str outcome
-    +list covariates
-    +run() RichResult
-  }
-
-  class PerRowMRM
-  class AggregateMRM {
-    +str family
-  }
-  class MRMChiSquare {
-    +ndarray table
-  }
-  class MandelaClassifier {
-    +str jurisdiction
-  }
-
-  MRMModule <|-- PerRowMRM
-  MRMModule <|-- AggregateMRM
-  MRMModule <|-- MRMChiSquare
-  MRMModule <|-- MandelaClassifier
-
-  PerRowMRM o-- IPWEstimator
-  PerRowMRM o-- AIPWEstimator
-  PerRowMRM o-- DMLEstimator
-  PerRowMRM o-- MatchingEstimator
+flowchart LR
+  D["data:<br/>treatment · outcome · covariates"] --> F["morie_* estimator function<br/>(ATE · AIPW · DML · matching · Hawkes · …)"]
+  F --> R["RichResult<br/>summary · tables · warnings · interpretation"]
+  D --> M["MRM: ~10 estimator functions<br/>on one design"]
+  M --> A["aggregate RichResult"]
 ```
 
 ---

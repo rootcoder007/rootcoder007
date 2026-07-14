@@ -37,7 +37,6 @@ Every result-emitting function returns a `RichResult` — a self-describing repo
 
 <div align="center">
 
-[![Site](https://img.shields.io/badge/projectmorie.com-0a0a23?style=for-the-badge&logo=firefox&logoColor=white)](https://projectmorie.com)
 [![Documentation](https://img.shields.io/badge/Documentation-1a1a4e?style=for-the-badge&logo=readthedocs&logoColor=white)](https://rootcoder007.github.io/morie/)
 [![r-universe](https://img.shields.io/badge/r--universe-0f3460?style=for-the-badge&logo=r&logoColor=white)](https://rootcoder007.r-universe.dev)
 

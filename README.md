@@ -13,10 +13,12 @@
 
 | Package | What it is |
 |---|---|
-| [**rmorie**](https://github.com/rootcoder007/rmorie) | The flagship R toolkit — 1,800+ exported functions across causal inference (DML, AIPW, IPW, matching), spatial statistics (LISA, kriging, Kulldorff scans), Hawkes processes, psychometrics/IRT, survey-weighted inference, and the MRM framework. rOpenSci statistical-software standards addressed across all nine categories. |
-| [**morie**](https://github.com/rootcoder007/morie) | The Python side — the same estimators with Python/R parity, 60+ built-in datasets in a portable SQLite layer, and a shared C/C++ core. |
-| [**rmoriedata**](https://github.com/rootcoder007/rmoriedata) | Data-only companion — integrated open datasets (OTIS, CPADS, …) plus privacy primitives (differential privacy, k-anonymity). |
+| [**morie**](https://github.com/rootcoder007/morie) | The full dual-language toolkit — **Python *and* R**, at parity — with bundled open datasets in a portable SQLite layer, a shared C/C++ core, and the complete MRM framework. The batteries-included home of the ecosystem. |
+| [**rmorie**](https://github.com/rootcoder007/rmorie) | The lean **R-only** carve for CRAN / rOpenSci — the same statistical core, 2,000+ exported functions across causal inference (DML, AIPW, IPW, matching), spatial statistics (LISA, kriging, Kulldorff scans), Hawkes processes, psychometrics/IRT, and survey-weighted inference. Dependency-light; rOpenSci statistical-software standards addressed across all nine categories. |
+| [**rmoriedata**](https://github.com/rootcoder007/rmoriedata) | Data-only companion — 40+ integrated open datasets (OTIS, CPADS, …) plus privacy primitives (differential privacy, k-anonymity). |
 | [**rmorie-bricklayer**](https://github.com/rootcoder007/rmorie-bricklayer) | Brick-proof reproducibility capsules — compiled C provenance core, CKAN resolution, SHA-256 + Wayback provenance, synthetic fallback. |
+
+**Native, not thin wrappers.** Both toolkits implement their statistical methods *natively* — no heavy third-party runtime dependencies. Every estimator is cross-validated to machine precision against the reference package it replaces, benchmarked, and CI-gated on Linux; several run markedly faster (e.g. double-ML 40–60× over `DoubleML`, optimal matching 7–14× over `optmatch`).
 
 <div align="center">
 

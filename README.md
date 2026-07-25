@@ -1,12 +1,3 @@
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a23,50:1a1a4e,100:0f3460&height=120&section=header" width="100%" alt="Header"/>
-
-### Building tools that make science reproducible and accessible.
-
-**University of Toronto** · causal inference · spatial statistics · reproducibility · post-quantum crypto
-
-</div>
-
 ## The MORIE ecosystem
 
 *Multi-domain Open Research and Inferential Estimation* — one methodology, shipped as a family of packages. Home of the **MRM (Multilevel Reconciliation Methodology)** framework.

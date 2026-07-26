@@ -4,8 +4,8 @@
 
 | Package | What it is |
 |---|---|
-| [**morie**](https://github.com/rootcoder007/morie) | The full dual-language toolkit — **Python *and* R**, at parity — with bundled open datasets in a portable SQLite layer, a shared C/C++ core, and the complete MRM framework. The batteries-included home of the ecosystem. |
 | [**rmorie**](https://github.com/rootcoder007/rmorie) | The lean **R-only** carve for CRAN / rOpenSci — the same statistical core, 2,000+ exported functions across causal inference (DML, AIPW, IPW, matching), spatial statistics (LISA, kriging, Kulldorff scans), Hawkes processes, psychometrics/IRT, and survey-weighted inference. Dependency-light; rOpenSci statistical-software standards addressed across all nine categories. |
+| [**morie**](https://github.com/rootcoder007/morie) | The full dual-language toolkit — **Python *and* R**, at parity — with bundled open datasets in a portable SQLite layer, a shared C/C++ core, and the complete MRM framework. The batteries-included home of the ecosystem. |
 | [**rmoriedata**](https://github.com/rootcoder007/rmoriedata) | Data-only companion — 40+ integrated open datasets (OTIS, CPADS, …) plus privacy primitives (differential privacy, k-anonymity). |
 | [**rmorie-bricklayer**](https://github.com/rootcoder007/rmorie-bricklayer) | Brick-proof reproducibility capsules — compiled C provenance core, CKAN resolution, SHA-256 + Wayback provenance, synthetic fallback. |
 

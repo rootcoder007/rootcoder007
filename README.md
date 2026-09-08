@@ -13,8 +13,9 @@
 
 <div align="center">
 
-[![PyPI](https://img.shields.io/pypi/v/morie?style=for-the-badge&color=blue)](https://pypi.org/project/morie/)
-[![rmorie on r-universe](https://rootcoder007.r-universe.dev/badges/rmorie?style=for-the-badge)](https://rootcoder007.r-universe.dev/rmorie)
+[![PyPI](https://img.shields.io/pypi/v/morie?style=for-the-badge&label=PyPI%20morie&color=3776AB&logo=pypi&logoColor=white)](https://pypi.org/project/morie/)
+[![CRAN](https://img.shields.io/cran/v/rmoriebricklayer?style=for-the-badge&label=CRAN%20rmoriebricklayer&color=276DC3&logo=r&logoColor=white)](https://cran.r-project.org/package=rmoriebricklayer)
+[![r-universe](https://img.shields.io/badge/r--universe-rmorie-0f3460?style=for-the-badge&logo=r&logoColor=white)](https://rootcoder007.r-universe.dev/rmorie)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-d97706?style=for-the-badge)](https://www.gnu.org/licenses/agpl-3.0)
 
 </div>

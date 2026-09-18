@@ -40,5 +40,6 @@ Every result-emitting function returns a `RichResult` — a self-describing repo
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
-<img src="./coding-setup.gif" width="100%" alt="Coding setup animation"/>
 </div>
+
+**Upstream.** Contributor to rOpenSci's statistical-software review tooling: [srr](https://github.com/ropensci-review-tools/srr) ([#67](https://github.com/ropensci-review-tools/srr/pull/67), [#68](https://github.com/ropensci-review-tools/srr/pull/68)) and the [review-tools actions](https://github.com/ropensci-review-tools/actions) ([#2](https://github.com/ropensci-review-tools/actions/pull/2), the push-to-elsewhere composite action).

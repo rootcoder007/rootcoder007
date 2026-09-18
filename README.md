@@ -42,4 +42,4 @@ Every result-emitting function returns a `RichResult` — a self-describing repo
 
 </div>
 
-**Upstream.** Contributor to rOpenSci's statistical-software review tooling: [srr](https://github.com/ropensci-review-tools/srr) and the [review-tools actions](https://github.com/ropensci-review-tools/actions).
+**Upstream.** Contributor to rOpenSci's statistical-software review tooling: [srr](https://github.com/ropensci-review-tools/srr) and [review-tools actions](https://github.com/ropensci-review-tools/actions).

@@ -27,7 +27,7 @@ Rscript -e 'install.packages("rmorie",
 brew tap rootcoder007/morie && brew install morie        # macOS/Linux CLI
 ```
 
-Every result-emitting function returns a `RichResult` — a self-describing report (summary, tables, warnings, interpretation) that round-trips to JSON. One design, `(data, treatment, outcome, covariates)`, flows through any estimator; the MRM framework runs ~10 of them on one design and reconciles the answers. For rpm/deb or homebrew taps, see [**homebrew-morie**](https://github.com/rootcoder007/homebrew-morie); alternatively, [**r-universe**](https://rootcoder007.r-universe.dev/packages) and [**CRAN**](https://cran.r-project.org/web/packages/rmoriebricklayer/index.html). 
+Every result-emitting function returns a `RichResult` — a self-describing report (summary, tables, warnings, interpretation) that round-trips to JSON. One design, `(data, treatment, outcome, covariates)`, flows through any estimator; the MRM framework runs ~10 of them on one design and reconciles the answers. For rpm/deb or homebrew taps, see [**homebrew-morie**](https://github.com/rootcoder007/homebrew-morie); or [**r-universe**](https://rootcoder007.r-universe.dev/packages) and [**CRAN**](https://cran.r-project.org/web/packages/rmoriebricklayer/index.html). 
 
 <div align="center">
 

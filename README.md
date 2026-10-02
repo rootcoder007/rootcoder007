@@ -9,8 +9,6 @@
 | [**rmoriedata**](https://github.com/rootcoder007/rmoriedata) | Data-only companion — 40+ integrated open datasets (OTIS, CPADS, …) plus privacy primitives (differential privacy, k-anonymity). |
 | [**rmorie-bricklayer**](https://github.com/rootcoder007/rmorie-bricklayer) | Brick-proof reproducibility capsules — compiled C provenance core, CKAN resolution, SHA-256 + Wayback provenance, synthetic fallback. |
 
-**Native, not thin wrappers.** Both toolkits implement their statistical methods *natively* — no heavy third-party runtime dependencies. Every estimator is cross-validated to machine precision against the reference package it replaces, benchmarked, and CI-gated on Linux; several run markedly faster (e.g. double-ML 40–60× over `DoubleML`, optimal matching 7–14× over `optmatch`).
-
 <div align="center">
 
 [![PyPI](https://img.shields.io/pypi/v/morie?style=for-the-badge&label=PyPI%20morie&color=3776AB&logo=pypi&logoColor=white)](https://pypi.org/project/morie/)
@@ -27,7 +25,7 @@ Rscript -e 'install.packages("rmorie",
 brew tap rootcoder007/morie && brew install morie        # macOS/Linux CLI
 ```
 
-Every result-emitting function returns a `RichResult` — a self-describing report (summary, tables, warnings, interpretation) that round-trips to JSON. One design, `(data, treatment, outcome, covariates)`, flows through any estimator; the MRM framework runs ~10 of them on one design and reconciles the answers. Additionally, see [**homebrew-morie**](https://github.com/rootcoder007/homebrew-morie), [**r-universe**](https://rootcoder007.r-universe.dev/packages) and [**CRAN**](https://cran.r-project.org/web/packages/rmoriebricklayer/index.html). 
+Every result-emitting function returns a `RichResult` — a self-describing report (summary, tables, warnings, interpretation) that round-trips to JSON. One design, `(data, treatment, outcome, covariates)`, flows through any estimator; the MRM framework runs ~10 of them on one design and reconciles the answers.
 
 <div align="center">
 

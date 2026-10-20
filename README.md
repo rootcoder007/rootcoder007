@@ -6,8 +6,8 @@
 |---|---|
 | [**rmorie**](https://github.com/rootcoder007/rmorie) | The lean **R-only** carve for CRAN / rOpenSci — the same statistical core, 2,000+ exported functions across causal inference (DML, AIPW, IPW, matching), spatial statistics (LISA, kriging, Kulldorff scans), Hawkes processes, psychometrics/IRT, and survey-weighted inference. Dependency-light; rOpenSci statistical-software standards addressed across all nine categories. |
 | [**morie**](https://github.com/rootcoder007/morie) | The full dual-language toolkit — **Python *and* R**, at parity — with bundled open datasets in a portable SQLite layer, a shared C/C++ core, and the complete MRM framework. The batteries-included home of the ecosystem. |
-| [**rmoriedata**](https://github.com/rootcoder007/rmoriedata) | Data-only companion — 40+ integrated open datasets (OTIS, CPADS, …) plus privacy primitives (differential privacy, k-anonymity). |
-| [**rmorie-bricklayer**](https://github.com/rootcoder007/rmorie-bricklayer) | Brick-proof reproducibility capsules — compiled C provenance core, CKAN resolution, SHA-256 + Wayback provenance, synthetic fallback. |
+| [**rmoriedata**](https://github.com/rootcoder007/rmoriedata) | Data-only companion, 0.4.0 — public justice, policing and health tables (OTIS, CPADS, OCJ, SIU reports, Health Infobase and more) with checksums and a signed catalogue, plus privacy primitives (differential privacy, k-anonymity); on CRAN. |
+| [**rmoriebricklayer**](https://github.com/rootcoder007/rmorie-bricklayer) | Brick-proof reproducibility capsules, 1.0.0 — 377 functions and the `rmbl` shell: pinned sources, SHA-256 and Wayback provenance, drift screens, survey estimation, and post-quantum signatures (ML-KEM, ML-DSA, SLH-DSA, HQC, XMSS) in a compiled core with no system crypto library; on CRAN. |
 
 <div align="center">
 
@@ -40,4 +40,9 @@ Every result-emitting function returns a `RichResult` — a self-describing repo
 
 </div>
 
-**Upstream.** Contributor to rOpenSci's statistical-software review tooling: [srr](https://github.com/ropensci-review-tools/srr) and [review-tools actions](https://github.com/ropensci-review-tools/actions).
+**Upstream.** Contributor to rOpenSci's statistical-software review tooling:
+[pkgstats](https://github.com/ropensci-review-tools/pkgstats) (tag parsing and call network, per-package summaries, archive trawl: #130–#132),
+[pkgcheck](https://github.com/ropensci-review-tools/pkgcheck) (assignment, statistics, coverage, Rd, URL, CI, author, CRAN and summary checks, completed-run CI logic: #441–#443, #450; #445 open),
+[srr](https://github.com/ropensci-review-tools/srr) (#67, #68),
+[review-tools actions](https://github.com/ropensci-review-tools/actions) (#2) and
+[pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action) (#69 open).

@@ -19,11 +19,15 @@
 </div>
 
 ```bash
-pip install morie                                        # Python
+pip install morie                                                     # Python: morie
+Rscript -e 'install.packages(c("rmoriebricklayer", "rmoriedata"))'    # R, from CRAN
 Rscript -e 'install.packages("rmorie",
-  repos = "https://rootcoder007.r-universe.dev")'        # R
-brew tap rootcoder007/morie && brew install morie        # macOS/Linux CLI
+  repos = "https://rootcoder007.r-universe.dev")'                     # R: rmorie (r-universe)
+brew tap rootcoder007/morie && \
+  brew install morie rmorie rmoriebricklayer rmoriedata               # macOS/Linux, CLI and R packages
 ```
+
+Website: [rmorie.com](https://www.rmorie.com) (packages, methods, verification, data terms); the hosted tables are served from [data.rmorie.com](https://data.rmorie.com) with a key from [rmorie.com/access](https://www.rmorie.com/access/).
 
 Every result-emitting function returns a `RichResult` — a self-describing report (summary, tables, warnings, interpretation) that round-trips to JSON. One design, `(data, treatment, outcome, covariates)`, flows through any estimator; the MRM framework runs ~10 of them on one design and reconciles the answers.
 

@@ -27,8 +27,6 @@ brew tap rootcoder007/morie && \
   brew install morie rmorie rmoriebricklayer rmoriedata               # macOS/Linux, CLI and R packages
 ```
 
-Website: [rmorie.com](https://www.rmorie.com) (packages, methods, verification, data terms); the hosted tables are served from [data.rmorie.com](https://data.rmorie.com) with a key from [rmorie.com/access](https://www.rmorie.com/access/).
-
 Every result-emitting function returns a `RichResult` — a self-describing report (summary, tables, warnings, interpretation) that round-trips to JSON. One design, `(data, treatment, outcome, covariates)`, flows through any estimator; the MRM framework runs ~10 of them on one design and reconciles the answers.
 
 <div align="center">
@@ -46,7 +44,6 @@ Every result-emitting function returns a `RichResult` — a self-describing repo
 
 **Upstream.** Contributor to rOpenSci's statistical-software review tooling:
 [pkgstats](https://github.com/ropensci-review-tools/pkgstats) (tag parsing and call network, per-package summaries, archive trawl: #130–#132),
-[pkgcheck](https://github.com/ropensci-review-tools/pkgcheck) (assignment, statistics, coverage, Rd, URL, CI, author, CRAN and summary checks, completed-run CI logic: #441–#443, #450; #445 open),
-[srr](https://github.com/ropensci-review-tools/srr) (#67, #68),
-[review-tools actions](https://github.com/ropensci-review-tools/actions) (#2) and
-[pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action) (#69 open).
+[pkgcheck](https://github.com/ropensci-review-tools/pkgcheck) (assignment, statistics, coverage, Rd, URL, CI, author, CRAN and summary checks, completed-run CI logic: #441–#443, #450; #445 open), [srr](https://github.com/ropensci-review-tools/srr) (#67, #68), [review-tools actions](https://github.com/ropensci-review-tools/actions) (#2) and [pkgcheck-action](https://github.com/ropensci-review-tools/pkgcheck-action) (#69 open).
+
+Website: [rmorie.com](https://www.rmorie.com) (packages, methods, verification, data terms); the hosted tables are served from [data.rmorie.com](https://data.rmorie.com) with a key from [rmorie.com/access](https://www.rmorie.com/access/).

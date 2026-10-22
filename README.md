@@ -34,7 +34,7 @@ Every result-emitting function returns a `RichResult` — a self-describing repo
 [pkgstats](https://github.com/ropensci-review-tools/pkgstats),
 [pkgcheck](https://github.com/ropensci-review-tools/pkgcheck), [srr](https://github.com/ropensci-review-tools/srr) and [review-tools actions](https://github.com/ropensci-review-tools/actions).
 
-Website: [rmorie.com](https://www.rmorie.com) (packages, methods, verification, data terms) with the rmoriebricklayer page at [rmorie.com/provenance](https://www.rmorie.com/provenance/); the hosted tables are served from [data.rmorie.com](https://data.rmorie.com) with a key from [rmorie.com/access](https://www.rmorie.com/access/).
+Website: [rmorie.com](https://www.rmorie.com) (packages, methods, verification, data terms) with the rmoriebricklayer page at [rmorie.com/provenance](https://www.rmorie.com/provenance/); the hosted tables are served from [data.rmorie.com](https://data.rmorie.com) with a key from [rmorie.com/access](https://www.rmorie.com/access/); copies of the sources you cite are kept at [archive.rmorie.com](https://archive.rmorie.com).
 
 <div align="center">
 

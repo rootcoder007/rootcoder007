@@ -83,12 +83,6 @@ sudo dnf install morie rmorie rmoriedata rmoriebricklayer
 
 Website: [rmorie.com](https://www.rmorie.com) (packages, methods, verification, data terms) with the rmoriebricklayer page at [rmorie.com/provenance](https://www.rmorie.com/provenance/); the hosted tables are served from [data.rmorie.com](https://data.rmorie.com) with a key from [rmorie.com/access](https://www.rmorie.com/access/); save cited sources via [archive.rmorie.com](https://archive.rmorie.com).
 
----
-
-**Upstream.** Contributor to rOpenSci's statistical-software review tooling:
-[pkgstats](https://github.com/ropensci-review-tools/pkgstats),
-[pkgcheck](https://github.com/ropensci-review-tools/pkgcheck), [srr](https://github.com/ropensci-review-tools/srr) and [review-tools actions](https://github.com/ropensci-review-tools/actions).
-
 <div align="center">
 
 [![MORIE documentation](https://img.shields.io/badge/MORIE-Documentation-1a1a4e?style=for-the-badge&logo=readthedocs&logoColor=white)](https://rootcoder007.github.io/morie/)
@@ -101,3 +95,10 @@ Website: [rmorie.com](https://www.rmorie.com) (packages, methods, verification, 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
 </div>
+
+---
+
+**Upstream.** Contributor to rOpenSci's statistical-software review tooling:
+[pkgstats](https://github.com/ropensci-review-tools/pkgstats),
+[pkgcheck](https://github.com/ropensci-review-tools/pkgcheck), [srr](https://github.com/ropensci-review-tools/srr) and [review-tools actions](https://github.com/ropensci-review-tools/actions).
+

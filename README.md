@@ -1,14 +1,3 @@
-## The MORIE ecosystem
-
-*Multi-domain Open Research and Inferential Estimation* — one methodology, shipped as a family of packages. Home of the **MRM (Multilevel Reconciliation Methodology)** framework.
-
-| Package | What it is |
-|---|---|
-| [**rmorie**](https://github.com/rootcoder007/rmorie) | The lean **R-only** carve — the same statistical core, 2,000+ exported functions across causal inference (DML, AIPW, IPW, matching), spatial statistics (LISA, kriging, Kulldorff scans), Hawkes processes, psychometrics/IRT, and survey-weighted inference. Dependency-light. |
-| [**morie**](https://github.com/rootcoder007/morie) | The full dual-language toolkit — **Python *and* R**, at parity — with bundled open datasets in a portable SQLite layer, a shared C/C++ core, and the complete MRM framework. The batteries-included home of the ecosystem. |
-| [**rmoriedata**](https://github.com/rootcoder007/rmoriedata) | Data-only companion, 0.4.1 — public justice, policing and health tables (OTIS, CPADS, OCJ, SIU reports, Health Infobase and more) with checksums and a signed catalogue, plus privacy primitives (differential privacy, k-anonymity); on CRAN. |
-| [**rmbl-action**](https://github.com/marketplace/actions/rmbl-action) | GitHub Action, 1.0.1 — verifies, drift-checks, refreshes, reports and signs rmoriebricklayer data capsules in CI from a digest-pinned image: digests, schemas, HMAC/ML-DSA/XMSS bundles, source re-fetch with Wayback fallback, pull-request comments; capsules authored via several languages. |
-| [**rmoriebricklayer**](https://github.com/rootcoder007/rmorie-bricklayer) | Brick-proof reproducibility capsules, 1.0.2 — 431 functions and the `rmbl` shell: pinned sources, SHA-256 and Wayback provenance, drift screens, survey estimation, and post-quantum signatures (ML-KEM, ML-DSA, SLH-DSA, HQC, XMSS) in a compiled core with no system crypto library; on CRAN. |
 
 <div align="center">
 
@@ -27,8 +16,6 @@ Rscript -e 'install.packages("rmorie",
 brew tap rootcoder007/morie && \
   brew install morie rmorie rmoriebricklayer rmoriedata               # macOS/Linux, CLI and R packages
 ```
-
-Every result-emitting function returns a `RichResult` — a self-describing report (summary, tables, warnings, interpretation) that round-trips to JSON. One design, `(data, treatment, outcome, covariates)`, flows through any estimator; the MRM framework runs ~10 of them on one design and reconciles the answers.
 
 **Upstream.** Contributor to rOpenSci's statistical-software review tooling:
 [pkgstats](https://github.com/ropensci-review-tools/pkgstats),

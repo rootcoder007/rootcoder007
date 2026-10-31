@@ -50,7 +50,7 @@ Java (Maven Central): `io.github.rootcoder007:noqtis`. Debian, Ubuntu and openSU
 
 </div>
 
-**MORIE** (Python `morie`; R `rmorie`, `rmoriedata`, `rmoriebricklayer`):
+**MORIE** (Python [`morie`](https://github.com/rootcoder007/morie); R [`rmorie`](https://github.com/rootcoder007/rmorie), [`rmoriedata`](https://github.com/rootcoder007/rmoriedata), [`rmoriebricklayer`](https://github.com/rootcoder007/rmorie-bricklayer); GitHub Action [`rmbl-action`](https://github.com/rootcoder007/rmbl-action)):
 
 ```bash
 pip install morie                                                     # Python: morie
@@ -59,6 +59,7 @@ Rscript -e 'install.packages("rmorie",
   repos = "https://rootcoder007.r-universe.dev")'                     # R: rmorie (r-universe)
 brew tap rootcoder007/morie && \
   brew install morie rmorie rmoriebricklayer rmoriedata               # macOS/Linux, CLI and R packages
+# - uses: rootcoder007/rmbl-action@v1                                  # GitHub Actions: check data capsules in CI
 ```
 
 Debian / Ubuntu, from the signed [apt-morie](https://github.com/rootcoder007/apt-morie) repository:

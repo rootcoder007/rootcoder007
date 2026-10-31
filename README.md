@@ -59,7 +59,7 @@ Rscript -e 'install.packages("rmorie",
   repos = "https://rootcoder007.r-universe.dev")'                     # R: rmorie (r-universe)
 brew tap rootcoder007/morie && \
   brew install morie rmorie rmoriebricklayer rmoriedata               # macOS/Linux, CLI and R packages
-# - uses: rootcoder007/rmbl-action@v1                                  # GitHub Actions: check data capsules in CI
+# - uses: rootcoder007/rmbl-action@v1                                 # GitHub Actions: check data capsules in CI
 ```
 
 Debian / Ubuntu, from the signed [apt-morie](https://github.com/rootcoder007/apt-morie) repository:

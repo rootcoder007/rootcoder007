@@ -34,6 +34,8 @@ Rscript -e 'install.packages("noqtis",
 
 ```powershell
 irm https://github.com/rootcoder007/noqtis/releases/latest/download/install.ps1 | iex   # Windows
+scoop bucket add noqtis https://github.com/rootcoder007/scoop-noqtis                    # Windows, Scoop
+scoop install noqtis/noqtis
 ```
 
 Java (Maven Central): `io.github.rootcoder007:noqtis`. Debian, Ubuntu and openSUSE: the [openSUSE Build Service repositories](https://build.opensuse.org/package/show/home:rootcoder007/noqtis) (commands on the [install page](https://rootcoder007.github.io/noqtis/start/install/)).
@@ -45,7 +47,7 @@ Java (Maven Central): `io.github.rootcoder007:noqtis`. Debian, Ubuntu and openSU
 [![PyPI](https://img.shields.io/pypi/v/morie?style=for-the-badge&label=PyPI%20morie&color=3776AB&logo=pypi&logoColor=white)](https://pypi.org/project/morie/)
 [![CRAN](https://img.shields.io/cran/v/rmoriebricklayer?style=for-the-badge&label=CRAN%20rmoriebricklayer&color=276DC3&logo=r&logoColor=white)](https://cran.r-project.org/package=rmoriebricklayer)
 [![r-universe](https://img.shields.io/badge/r--universe-rmorie-0f3460?style=for-the-badge&logo=r&logoColor=white)](https://rootcoder007.r-universe.dev/rmorie)
-[![apt and dnf](https://img.shields.io/badge/apt%20%26%20dnf-apt--morie-a81d33?style=for-the-badge&logo=debian&logoColor=white)](https://github.com/rootcoder007/apt-morie)
+[![apt and dnf](https://img.shields.io/badge/apt%20%26%20dnf-apt--morie-a81d33?style=for-the-badge&logo=debian&logoColor=white)](https://apt.rmorie.com/)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-d97706?style=for-the-badge)](https://www.gnu.org/licenses/agpl-3.0)
 
 </div>
@@ -62,13 +64,13 @@ brew tap rootcoder007/morie && \
 # - uses: rootcoder007/rmbl-action@v1                                 # GitHub Actions: check data capsules in CI
 ```
 
-Debian / Ubuntu, from the signed [apt-morie](https://github.com/rootcoder007/apt-morie) repository:
+Debian / Ubuntu, from the signed [apt.rmorie.com](https://apt.rmorie.com/) repository:
 
 ```bash
 sudo install -d -m 0755 /etc/apt/keyrings
-curl -fsSL https://rootcoder007.github.io/apt-morie/key.gpg \
+curl -fsSL https://apt.rmorie.com/key.gpg \
   | sudo gpg --dearmor -o /etc/apt/keyrings/rootcoder007.gpg
-echo "deb [signed-by=/etc/apt/keyrings/rootcoder007.gpg] https://rootcoder007.github.io/apt-morie/apt stable main" \
+echo "deb [signed-by=/etc/apt/keyrings/rootcoder007.gpg] https://apt.rmorie.com/apt stable main" \
   | sudo tee /etc/apt/sources.list.d/morie.list
 sudo apt update
 sudo apt install morie rmorie rmoriedata rmoriebricklayer
@@ -77,7 +79,7 @@ sudo apt install morie rmorie rmoriedata rmoriebricklayer
 Fedora 41+ (dnf5), from the same repository:
 
 ```bash
-sudo dnf config-manager addrepo --from-repofile=https://rootcoder007.github.io/apt-morie/rpm/morie.repo
+sudo dnf config-manager addrepo --from-repofile=https://apt.rmorie.com/rpm/morie.repo
 sudo dnf install morie rmorie rmoriedata rmoriebricklayer
 ```
 

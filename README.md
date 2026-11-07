@@ -49,7 +49,7 @@ Java (Maven Central): `io.github.rootcoder007:noqtis`. Debian, Ubuntu and openSU
 [![r-universe](https://img.shields.io/badge/r--universe-rmorie-0f3460?style=for-the-badge&logo=r&logoColor=white)](https://rootcoder007.r-universe.dev/rmorie)
 [![apt and dnf](https://img.shields.io/badge/apt%20%26%20dnf-apt--morie-a81d33?style=for-the-badge&logo=debian&logoColor=white)](https://apt.rmorie.com/)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-d97706?style=for-the-badge)](https://www.gnu.org/licenses/agpl-3.0)
-
+[![r-universe](https://img.shields.io/badge/r--universe-0f3460?style=for-the-badge&logo=r&logoColor=white)](https://rootcoder007.r-universe.dev)
 </div>
 
 **MORIE** (Python [`morie`](https://github.com/rootcoder007/morie); R [`rmorie`](https://github.com/rootcoder007/rmorie), [`rmoriedata`](https://github.com/rootcoder007/rmoriedata), [`rmoriebricklayer`](https://github.com/rootcoder007/rmorie-bricklayer); GitHub Action [`rmbl-action`](https://github.com/rootcoder007/rmbl-action)):
@@ -86,9 +86,6 @@ sudo dnf install morie rmorie rmoriedata rmoriebricklayer
 Website: [rmorie.com](https://www.rmorie.com) (packages, methods, verification, data terms) with the rmoriebricklayer page at [rmorie.com/provenance](https://www.rmorie.com/provenance/); the hosted tables are served from [data.rmorie.com](https://data.rmorie.com) with a key from [rmorie.com/access](https://www.rmorie.com/access/); save cited sources via [archive.rmorie.com](https://archive.rmorie.com).
 
 <div align="center">
-
-[![MORIE documentation](https://img.shields.io/badge/MORIE-Documentation-1a1a4e?style=for-the-badge&logo=readthedocs&logoColor=white)](https://rootcoder007.github.io/morie/)
-[![r-universe](https://img.shields.io/badge/r--universe-0f3460?style=for-the-badge&logo=r&logoColor=white)](https://rootcoder007.r-universe.dev)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)

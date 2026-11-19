@@ -44,6 +44,49 @@ Java (Maven Central): `io.github.rootcoder007:noqtis`. Debian, Ubuntu and openSU
 
 <div align="center">
 
+[![CRIMLAB release](https://img.shields.io/github/v/release/rootcoder007/crimlab?style=for-the-badge&label=CRIMLAB&color=2ea44f)](https://github.com/rootcoder007/crimlab/releases/latest)
+[![Documentation](https://img.shields.io/badge/CRIMLAB-crimlab.dev-b8432a?style=for-the-badge)](https://crimlab.dev/)
+[![Open data](https://img.shields.io/badge/Open%20data-data.crimlab.dev-1a1a4e?style=for-the-badge)](https://data.crimlab.dev/)
+
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16873/badge)](https://www.bestpractices.dev/projects/16873)
+[![PyPI](https://img.shields.io/pypi/v/crimlab?label=PyPI&color=3775a9)](https://pypi.org/project/crimlab/)
+[![npm](https://img.shields.io/npm/v/crimlab?label=npm&color=cb3837)](https://www.npmjs.com/package/crimlab)
+[![crates.io](https://img.shields.io/crates/v/crimlab?label=crates.io&color=f0b400)](https://docs.rs/crimlab/latest/crimlab/)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.rootcoder007/crimlab?label=Maven%20Central&color=6f42c1)](https://central.sonatype.com/artifact/io.github.rootcoder007/crimlab)
+[![Go Reference](https://pkg.go.dev/badge/github.com/rootcoder007/crimlab/bindings/go.svg)](https://pkg.go.dev/github.com/rootcoder007/crimlab/bindings/go)
+[![r-universe](https://rootcoder007.r-universe.dev/badges/crimlab)](https://rootcoder007.r-universe.dev/crimlab)
+[![COPR](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcopr.fedorainfracloud.org%2Fapi_3%2Fpackage%2F%3Fownername%3Drootcoder007%26projectname%3Dcrimlab%26packagename%3Dcrimlab%26with_latest_build%3Dtrue&query=%24.builds.latest.state&label=COPR%20build&color=2ea44f)](https://copr.fedorainfracloud.org/coprs/rootcoder007/crimlab/)
+[![OBS](https://build.opensuse.org/projects/home:rootcoder007/packages/crimlab/badge.svg?type=default)](https://build.opensuse.org/package/show/home:rootcoder007/crimlab)
+
+</div>
+
+**[CRIMLAB](https://github.com/rootcoder007/crimlab)**: a statistical toolkit for courts, corrections, policing, forensics and sociolegal research. One compiled C++ core gives the same checked answer in R, Python, the command line, Go, Rust, Java and JavaScript. Docs: [crimlab.dev](https://crimlab.dev/). Open data: [data.crimlab.dev](https://data.crimlab.dev/).
+
+```bash
+Rscript -e 'install.packages("crimlab",
+  repos = "https://rootcoder007.r-universe.dev")'                     # R
+pip install crimlab                                                   # Python
+brew install rootcoder007/crimlab/crimlab                             # macOS/Linux
+curl -fsSL https://github.com/rootcoder007/crimlab/releases/latest/download/install.sh | sh
+sudo dnf copr enable rootcoder007/crimlab && sudo dnf install crimlab # Fedora, EPEL
+docker run --rm ghcr.io/rootcoder007/crimlab crimlab -l               # container (Wolfi)
+npm install crimlab                                                   # JavaScript (WebAssembly)
+cargo add crimlab                                                     # Rust
+go get github.com/rootcoder007/crimlab/bindings/go@latest             # Go
+```
+
+```powershell
+irm https://github.com/rootcoder007/crimlab/releases/latest/download/install.ps1 | iex   # Windows
+scoop bucket add crimlab https://github.com/rootcoder007/scoop-crimlab                   # Windows, Scoop
+scoop install crimlab/crimlab
+```
+
+Java (Maven Central): `io.github.rootcoder007:crimlab`. Debian, Ubuntu and openSUSE: the [openSUSE Build Service repositories](https://build.opensuse.org/package/show/home:rootcoder007/crimlab) (commands on [crimlab.dev](https://crimlab.dev/)).
+
+---
+
+<div align="center">
+
 [![PyPI](https://img.shields.io/pypi/v/morie?style=for-the-badge&label=PyPI%20morie&color=3776AB&logo=pypi&logoColor=white)](https://pypi.org/project/morie/)
 [![CRAN](https://img.shields.io/cran/v/rmoriebricklayer?style=for-the-badge&label=CRAN%20rmoriebricklayer&color=276DC3&logo=r&logoColor=white)](https://cran.r-project.org/package=rmoriebricklayer)
 [![r-universe](https://img.shields.io/badge/r--universe-rmorie-0f3460?style=for-the-badge&logo=r&logoColor=white)](https://rootcoder007.r-universe.dev/rmorie)

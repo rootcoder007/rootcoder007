@@ -17,7 +17,7 @@
 
 </div>
 
-**[NOQTIS](https://github.com/rootcoder007/noqtis)** (Notary Of Quantum-safe Traceable Inputs and Seals): seal the exact files behind a result with a post-quantum signature (ML-DSA, SLH-DSA, ML-KEM, in C11), so anyone can check later, offline, that nothing changed. Docs: [rootcoder007.github.io/noqtis](https://rootcoder007.github.io/noqtis/).
+**[NOQTIS](https://github.com/rootcoder007/noqtis)** (Notary Of Quantum-safe Traceable Inputs and Seals): seal the exact files behind a result with a post-quantum signature (ML-DSA, SLH-DSA, ML-KEM, in C11), so anyone can check later, offline, that nothing changed. Docs for R: [rootcoder007.github.io/noqtis](https://rootcoder007.github.io/noqtis/).
 
 ```bash
 brew install rootcoder007/noqtis/noqtis                               # macOS/Linux

@@ -126,7 +126,7 @@ sudo dnf config-manager addrepo --from-repofile=https://apt.rmorie.com/rpm/morie
 sudo dnf install morie rmorie rmoriedata rmoriebricklayer
 ```
 
-Website: [rmorie.com](https://www.rmorie.com) (packages, methods, verification, data terms) with the rmoriebricklayer page at [rmorie.com/provenance](https://www.rmorie.com/provenance/); the hosted tables are served from [data.rmorie.com](https://data.rmorie.com) with a key from [rmorie.com/access](https://www.rmorie.com/access/); save cited sources via [archive.rmorie.com](https://archive.rmorie.com).
+Website: [rmorie.com](https://www.rmorie.com) (packages, methods, verification, data terms) with the rmoriebricklayer page at [rmorie.com/provenance](https://www.rmorie.com/provenance/); the hosted tables are served from [data.rmorie.com](https://data.rmorie.com).
 
 <div align="center">
 
